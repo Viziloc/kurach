@@ -1,0 +1,40 @@
+body {
+    background-color: coral;
+    
+}
+
+
+.immg {
+    text-align: left;
+    width: 100%;
+}
+
+.proba
+{
+
+    background-image: -moz-linear-gradient(black);
+}
+
+section {
+  width: 100%;
+  
+}
+h2 {
+  position: relative;
+  background: white;
+}
+h2:before, h2:after {
+  content: "";
+  position: absolute;
+  background: black;  /* Соответствует фону элемента h2 */
+  top: 0;
+  bottom: 0;
+  width: 9999px;   /* Очень большая ширина */
+}
+h2:before {
+  right: 100%;
+}
+h2:after {
+  left: 100%;
+}
+
